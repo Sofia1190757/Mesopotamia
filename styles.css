@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    color: black;
+    text-align: center;
+    font-family: "Poor Story";
+    font-size: 20px;
+    line-height: 2;
+}
+
+header {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 1700px;
+    background-image: url('./images/Babilonia.jpg');
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85); /* 50% transparent white overlay */
+  }
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a{
+    color: orange;
+    font-family: Kablammo, Verdana, sans-serif;    
+    font-size: 25px;    
+    padding: 0 20px;    
+}
+
+li a:hover {
+	background-color: rgba(0, 187, 255, 0.465);
+}
+
+main {
+    position: relative;
+    top: 100px;    
+    padding-bottom: 100px;
+}
+
+main h1 {
+    color: #333;
+    font-family: "Hachi Maru Pop", cursive;
+    padding: 10px 0;    
+}
+
+.even-table {
+    width: 100%; /* Make the table take up the full width */
+    table-layout: fixed; /* Use fixed table layout */
+  }
+  
+  .even-table th,
+  .even-table td {
+    border: 1px solid orange; /* Optional: Add borders for visibility */
+    text-align: center; /* Center the text */
+    padding: 8px; /* Add padding */
+  }
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */   
+}
+
+table {
+    padding: 10px;    
+}
+
+footer {
+    background-color: blue;
+    color: orange;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 0 20px;
+    font-family: Kablammo, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+subject {
+    font-size: 25px;
+    font-weight: bold;
+}
