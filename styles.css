@@ -21,8 +21,8 @@ header {
 .background-container {
     position: relative;
     width: 100%;
-    height: 1700px;
-    background-image: url('./images/Babilonia.jpg');
+    height: 1500px;
+    background-image: url('./images/mesopotamia.jpg');
     -moz-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -119,3 +119,19 @@ subject {
     font-size: 25px;
     font-weight: bold;
 }
+
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    left: 10px; 
+    font-size: 12px; 
+    padding: 5px;
+  }
+
+  .attribution a {
+    color: orange; /* Or any color that contrasts with your background */
+  }
+
+  .attribution a:hover {
+    background-color: rgba(0, 187, 255, 0.465);
+  }
